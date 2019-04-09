@@ -3,7 +3,7 @@ from nltk.tokenize import word_tokenize
 
 def q01_longest_even_word(sentence):
     li = sentence.split()
-    lar_str = ''
+    lar_str = ""
     l = 0
     for val in li:
         if len(val) % 2 == 0:
